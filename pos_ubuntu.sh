@@ -22,6 +22,9 @@ sudo apt install --fix-broken install -y
 
 echo "baixando utilitários..."
 
+sudo apt install make -y
+sudo apt install ninja -y
+sudo apt install meson -y
 sudo apt install git -y
 sudo apt install gnome-software -y
 sudo apt install gnome-shell-extension-gsconnect -y
@@ -50,12 +53,10 @@ sudo apt install -f
 
 echo "Preparando o sistema para jogos..."
 sudo apt install wine-stable -y
-sudo flatpak install flathub com.valvesoftware.Steam
-wget https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.16.1/Heroic-2.16.1-linux-amd64.deb
-sudo dpkg -i Heroic-2.16.1-linux-amd64.deb
-sudo flatpak install flathub net.davidotek.pupgui2
-wget https://github.com/lutris/lutris/releases/download/v0.5.18/lutris_0.5.18_all.deb
-sudo apt install ./lutris*.deb
+sudo flatpak install flathub com.valvesoftware.Steam -y
+sudo flatpak install flathub com.heroicgameslauncher.hgl -y
+sudo flatpak install flathub net.davidotek.pupgui2 -y
+sudo flatpak install flathub net.lutris.Lutris -y
 sudo apt install -f
 
 echo "Finalizando pos instalacao e reiniciando sistema..."
