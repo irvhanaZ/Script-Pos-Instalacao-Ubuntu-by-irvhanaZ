@@ -32,7 +32,7 @@ echo "instalando o gnome vanilla..."
 sudo apt remove ubuntu-session -y
 sudo apt purge ubuntu-desktop -y
 sudo apt install gnome-session -y
-sudo apt install vanilla-gnome-desktop && sudo apt install vanilla-gnome-default-settings -y
+sudo apt install vanilla-gnome-desktop -y && sudo apt install vanilla-gnome-default-settings -y
 
 echo "Desinstalando Snaps e a dicionando suporte a flatpak..."
 
