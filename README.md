@@ -1,8 +1,5 @@
 # Script pós instalação ubuntu feito por:
 
-![Title](https://github.com/user-attachments/assets/4978440d-1930-4cb7-8b7c-db0edc9919c5)
-
-
 Esse script foi criado para'queles que gostam do ubuntu, mas queriam que o gnome dele tivesse uma pegada mais vanilla igual ao Fedora. Ao usar esse script de
 pós instalação, você terá um ubuntu:
 
