@@ -23,8 +23,9 @@ sudo apt install git -y
 sudo apt install gnome-software -y
 sudo apt install gnome-shell-extension-gsconnect -y
 sudo apt install wget -y
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb.
-sudo dpkg -i ~/Downloads/google-chrome-stable*.deb.
+sudo apt-get install libxss1 libappindicator1 libindicator7 -y
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome*.deb
 wget "https://go.microsoft.com/fwlink/?LinkID=760868" -O vscode.deb 
 sudo dpkg -i vscode.deb 
 sudo apt install -f
