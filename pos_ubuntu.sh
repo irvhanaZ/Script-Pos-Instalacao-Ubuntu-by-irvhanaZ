@@ -26,8 +26,7 @@ sudo apt install gnome-shell-extension-gsconnect -y
 sudo apt install wget -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 sudo apt install ./google-chrome*.deb -y
-wget "https://go.microsoft.com/fwlink/?LinkID=760868" 
-sudo apt install ./vscode.deb -y
+sudo apt install code
 
 echo "instalando o gnome vanilla..."
 
@@ -52,4 +51,4 @@ sudo flatpak install flathub net.lutris.Lutris -y
 
 echo "Finalizando pos instalacao e reiniciando sistema..."
 sudo apt autoremove --purge -y
-sudo autoclean -y
+sudo systemctl reboot
