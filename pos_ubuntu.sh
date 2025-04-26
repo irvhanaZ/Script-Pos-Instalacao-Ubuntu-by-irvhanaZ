@@ -11,7 +11,7 @@ echo "Script de pós instalação para ubuntu by:"
  echo   " ## |## |         \#  /   ## |  ## |\####### |## |  ## |\####### |########\  "
  echo   " \__|\__|          \_/    \__|  \__| \_______|\__|  \__| \_______|\________| "
                                                                            
-                                                                           
+echo "Deem uma star e compartilhem xD"
                                                                            
 echo "Preparando o sistema..."
 
@@ -24,7 +24,6 @@ sudo apt install git -y
 sudo apt install gnome-software -y
 sudo apt install gnome-shell-extension-gsconnect -y
 sudo apt install wget -y
-#sudo apt-get install libxss1 libappindicator1 libindicator7 -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 sudo apt install ./google-chrome*.deb -y
 wget "https://go.microsoft.com/fwlink/?LinkID=760868" 
@@ -53,4 +52,4 @@ sudo flatpak install flathub net.lutris.Lutris -y
 
 echo "Finalizando pos instalacao e reiniciando sistema..."
 sudo apt autoremove --purge -y
-sudo clean && sudo autoclean -y
+sudo autoclean -y
