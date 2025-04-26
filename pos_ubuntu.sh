@@ -28,6 +28,7 @@ sudo apt install meson -y
 sudo apt install git -y
 sudo apt install gnome-software -y
 sudo apt install gnome-shell-extension-gsconnect -y
+sudo apt install gnome-shell-extension-blurmyshell -y
 sudo apt install wget -y
 sudo apt-get install libxss1 libappindicator1 libindicator7 -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -y
