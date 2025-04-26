@@ -22,13 +22,9 @@ sudo apt install --fix-broken install -y
 
 echo "baixando utilitários..."
 
-sudo apt install make -y
-sudo apt install ninja -y
-sudo apt install meson -y
 sudo apt install git -y
 sudo apt install gnome-software -y
 sudo apt install gnome-shell-extension-gsconnect -y
-sudo apt install gnome-shell-extension-blurmyshell -y
 sudo apt install wget -y
 sudo apt-get install libxss1 libappindicator1 libindicator7 -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -y
@@ -43,9 +39,10 @@ sudo apt remove ubuntu-session -y
 sudo apt purge ubuntu-desktop -y
 sudo apt install gnome-session -y
 sudo apt install vanilla-gnome-desktop && sudo apt install vanilla-gnome-default-settings -y
-sudo apt install -f 
+sudo apt install -f -y
 
 echo "Desinstalando Snaps e a dicionando suporte a flatpak..."
+
 sudo apt purge snapd -y
 sudo apt install flatpak -y
 sudo apt install gnome-software-plugin-flatpak -y
@@ -62,5 +59,5 @@ sudo apt install -f
 
 echo "Finalizando pos instalacao e reiniciando sistema..."
 sudo apt autoremove --purge -y
-sudo clean && sudo autoclean
+sudo clean && sudo autoclean -y
 sudo systemctl reboot
