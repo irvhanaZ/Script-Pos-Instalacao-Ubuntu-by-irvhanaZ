@@ -1,4 +1,4 @@
-# Script pós instalação ubuntu feito por:
+# Script pós instalação ubuntu by irvhanaZ
 
 Esse script foi criado para'queles que gostam do ubuntu, mas queriam que o gnome dele tivesse uma pegada mais vanilla igual ao Fedora. Ao usar esse script de
 pós instalação, você terá um ubuntu:

@@ -20,7 +20,6 @@ sudo ufw enable
 
 echo "baixando utilitários..."
 
-sudo apt install git -y
 sudo apt install gnome-software -y
 sudo apt install gnome-shell-extension-gsconnect -y
 sudo apt install wget -y
